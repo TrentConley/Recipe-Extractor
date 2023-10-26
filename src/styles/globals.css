@@ -3,3 +3,13 @@
 @import 'tailwindcss/utilities';
 
 /* You can add additional custom styles below for a "healthy" look */
+className {
+    background-image: url('/salad.png'); 
+  }
+
+  .full-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }

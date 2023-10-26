@@ -1,0 +1,23 @@
+.app-background {
+    background-image: url('/salad.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .transparent-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 25%; /* make the textbox 1/4 of the page width */
+    margin: auto; /* center the textbox */
+    margin-top: 50px; /* position it a bit lower on the page */
+    display: block; /* necessary for margin: auto to work */
+    text-align: center; /* center the cursor */
+  }
+
+  .transparent-input:focus {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
